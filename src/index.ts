@@ -11,11 +11,11 @@ type FontSizeList = number[];
 type LineHeightList = number[];
 
 const defaultFontFamilyMap: FontFamilyMap = {
-    'Pretendard-normal': {
+    'pretendard-normal': {
         weight: 400,
         family: '"Pretendard", sans-serif',
     },
-    'Pretendard-bold': {
+    'pretendard-bold': {
         weight: 700,
         family: '"Pretendard", sans-serif',
     },

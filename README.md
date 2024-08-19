@@ -2,6 +2,8 @@
 
 A simple typography plugin for Tailwind CSS.
 
+<img src="./doc/img/usage.gif">
+
 You can set up `fontFamily`, `fontWeight`, `fontSize`, and `lineHeight` easily and quickly.
 
 ## Installation
@@ -26,23 +28,23 @@ module.exports = {
   ...
   plugins: [
     ...
-    require('./styles/plugins/typography.ts')({
-      fontFamilyMap: {
-          'SUIT-normal': {
-              weight: 400,
-              family: '"SUIT", sans-serif',
-          },
-          'SUIT-bold': {
-              weight: 700,
-              family: '"SUIT", sans-serif',
-          },
-      },
-      fontSizeList: [
-          80, 60, 40, 35, 30, 28, 25, 22, 20, 18, 15, 13, 12, 11, 10,
-      ],
-      lineHeightList: [130, 160],
+    require('tailwind-simple-typography')({
+        fontFamilyMap: {
+            'pretendard-normal': {
+                weight: 400,
+                family: '"Pretendard", sans-serif',
+            },
+            'pretendard-bold': {
+                weight: 700,
+                family: '"Pretendard", sans-serif',
+            },
+        },
+        fontSizeList: [
+            80, 60, 40, 35, 30, 28, 25, 22, 20, 18, 15, 13, 12, 11, 10,
+        ],
+        lineHeightList: [130, 160],
     }),
-  ]
+  ],
 }
 ```
 Option interface:
@@ -68,10 +70,13 @@ interface TypographyOptions {
 
 ```jsx
 <!-- React -->
-<div className="Pretendard-normal-13-130">
+<div className="pretendard-normal-13-130">
   Hello, world!
 </div>
 ```
 
 ## Authors
 nonameP765 - nonamep@setsuna.kr
+
+## Code
+[GitHub](https://github.com/nonameP765/tailwind-simple-typography)
