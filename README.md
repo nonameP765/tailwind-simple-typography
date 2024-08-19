@@ -9,9 +9,9 @@ You can set up `fontFamily`, `fontWeight`, `fontSize`, and `lineHeight` easily a
 ## Installation
 
 ```bash
-npm install tailwind-simple-typography
-yarn add tailwind-simple-typography
-pnpm add tailwind-simple-typography
+npm install twind-simple-typography
+yarn add twind-simple-typography
+pnpm add twind-simple-typography
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ module.exports = {
   ...
   plugins: [
     ...
-    require('tailwind-simple-typography')({
+    require('twind-simple-typography')({
         fontFamilyMap: {
             'pretendard-normal': {
                 weight: 400,
@@ -79,4 +79,4 @@ interface TypographyOptions {
 nonameP765 - nonamep@setsuna.kr
 
 ## Code
-[GitHub](https://github.com/nonameP765/tailwind-simple-typography)
+[GitHub](https://github.com/nonameP765/twind-simple-typography)

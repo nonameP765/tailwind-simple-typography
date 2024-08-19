@@ -1,5 +1,5 @@
 {
-  "name": "tailwind-simple-typography",
+  "name": "twind-simple-typography",
   "version": "0.0.1",
   "description": "Simple typography plugin for Tailwind CSS",
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
   ],
   "respository": {
     "type": "git",
-    "url": "git+https://github.com/nonameP765/tailwind-simple-typography"
+    "url": "git+https://github.com/nonameP765/twind-simple-typography"
   },
   "scripts": {
     "build": "tsc"
